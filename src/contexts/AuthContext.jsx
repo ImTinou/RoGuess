@@ -31,7 +31,7 @@ export function AuthProvider({ children }) {
       .from('profiles')
       .select('*')
       .eq('id', userId)
-      .single()
+      .maybeSingle()
     setProfile(data)
     setLoading(false)
   }
@@ -48,7 +48,7 @@ export function AuthProvider({ children }) {
       .from('profiles')
       .select('id')
       .eq('username', username)
-      .single()
+      .maybeSingle()
     if (existing) throw new Error('Ce pseudo est déjà pris')
 
     const { data, error } = await supabase.auth.signUp({ email, password })

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useGameState } from '../hooks/useGameState'
 import GuessInput from '../components/game/GuessInput.jsx'
@@ -12,9 +12,12 @@ export default function GameGuess() {
   const [showResult, setShowResult] = useState(false)
   const dayNumber = getDayNumber()
 
-  if (!showResult && state?.finished && !loading) {
-    setTimeout(() => setShowResult(true), 500)
-  }
+  useEffect(() => {
+    if (state?.finished && !showResult) {
+      const t = setTimeout(() => setShowResult(true), 500)
+      return () => clearTimeout(t)
+    }
+  }, [state?.finished])
 
   if (loading) {
     return (
