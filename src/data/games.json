@@ -1,0 +1,450 @@
+[
+  {
+    "id": "adoptme",
+    "name": "Adopt Me!",
+    "thumbnail": "https://tr.rbxcdn.com/da9f6d85f5d8f3ca4be2dd3af0e2bdc1/768/432/Image/Png",
+    "hints": {
+      "genre": "Social / Roleplay",
+      "year": 2017,
+      "visits_range": "30B+",
+      "creator": "DreamCraft",
+      "creator_initials": "DC",
+      "description": "Players raise and trade virtual pets in a colorful neighborhood"
+    },
+    "roblox_url": "https://www.roblox.com/games/920587237"
+  },
+  {
+    "id": "brookhaven",
+    "name": "Brookhaven 🏡RP",
+    "thumbnail": "https://tr.rbxcdn.com/10061b95bebe6dbb2bcd1d5b7e78ab38/768/432/Image/Png",
+    "hints": {
+      "genre": "Roleplay",
+      "year": 2020,
+      "visits_range": "30B+",
+      "creator": "Wolfpaq & Aidanleewolf",
+      "creator_initials": "W",
+      "description": "Open-world roleplay game set in a suburban town with houses and cars"
+    },
+    "roblox_url": "https://www.roblox.com/games/4924922222"
+  },
+  {
+    "id": "bloxburg",
+    "name": "Welcome to Bloxburg",
+    "thumbnail": "https://tr.rbxcdn.com/b73c00e39b2b0571c4c74e16ec80f5a6/768/432/Image/Png",
+    "hints": {
+      "genre": "Roleplay / Building",
+      "year": 2014,
+      "visits_range": "7B+",
+      "creator": "Coeptus",
+      "creator_initials": "C",
+      "description": "Life simulation game where players build homes, get jobs and live in a suburban world"
+    },
+    "roblox_url": "https://www.roblox.com/games/185655149"
+  },
+  {
+    "id": "murder-mystery-2",
+    "name": "Murder Mystery 2",
+    "thumbnail": "https://tr.rbxcdn.com/3f1e8ae3a17c58af4e5e0d23e3e61fba/768/432/Image/Png",
+    "hints": {
+      "genre": "Mystery",
+      "year": 2014,
+      "visits_range": "10B+",
+      "creator": "Nikilis",
+      "creator_initials": "N",
+      "description": "Players take roles of innocents, a sheriff or a murderer in a whodunit challenge"
+    },
+    "roblox_url": "https://www.roblox.com/games/142823291"
+  },
+  {
+    "id": "arsenal",
+    "name": "Arsenal",
+    "thumbnail": "https://tr.rbxcdn.com/a60afe1e8c9bf5aad9dde16e2f7a3e47/768/432/Image/Png",
+    "hints": {
+      "genre": "FPS / Shooter",
+      "year": 2015,
+      "visits_range": "3B+",
+      "creator": "ROLVe Community",
+      "creator_initials": "RC",
+      "description": "Fast-paced gun game where you cycle through all weapons to win"
+    },
+    "roblox_url": "https://www.roblox.com/games/286090429"
+  },
+  {
+    "id": "piggy",
+    "name": "Piggy",
+    "thumbnail": "https://tr.rbxcdn.com/a5da9b78c63e78aa7b2a8b3a34e3b5a7/768/432/Image/Png",
+    "hints": {
+      "genre": "Horror / Survival",
+      "year": 2020,
+      "visits_range": "8B+",
+      "creator": "MiniToon",
+      "creator_initials": "MT",
+      "description": "Escape from a terrifying pig in this horror-survival game with a dark story"
+    },
+    "roblox_url": "https://www.roblox.com/games/4828322474"
+  },
+  {
+    "id": "tower-of-hell",
+    "name": "Tower of Hell",
+    "thumbnail": "https://tr.rbxcdn.com/c24a3cde5ea9c4b9c1dedbf48c66f0c0/768/432/Image/Png",
+    "hints": {
+      "genre": "Obby",
+      "year": 2018,
+      "visits_range": "20B+",
+      "creator": "YXCeptional Studios",
+      "creator_initials": "YS",
+      "description": "Randomly generated obstacle tower with no checkpoints and a strict time limit"
+    },
+    "roblox_url": "https://www.roblox.com/games/1962086868"
+  },
+  {
+    "id": "pet-simulator-x",
+    "name": "Pet Simulator X",
+    "thumbnail": "https://tr.rbxcdn.com/b5a3f94e1dfccd9e10d2ab4f48843a3f/768/432/Image/Png",
+    "hints": {
+      "genre": "Simulator",
+      "year": 2021,
+      "visits_range": "10B+",
+      "creator": "BIG Games",
+      "creator_initials": "BG",
+      "description": "Collect, hatch and trade rare pets while mining and exploring new worlds"
+    },
+    "roblox_url": "https://www.roblox.com/games/6284583030"
+  },
+  {
+    "id": "jailbreak",
+    "name": "Jailbreak",
+    "thumbnail": "https://tr.rbxcdn.com/9e5f6c3a1a2d4f5b6c7d8e9f1a2b3c4d/768/432/Image/Png",
+    "hints": {
+      "genre": "Action / Open World",
+      "year": 2017,
+      "visits_range": "7B+",
+      "creator": "asimo3089 & badcc",
+      "creator_initials": "AB",
+      "description": "Open-world heist game where criminals rob banks and escape prison while cops patrol"
+    },
+    "roblox_url": "https://www.roblox.com/games/606849621"
+  },
+  {
+    "id": "royale-high",
+    "name": "Royale High",
+    "thumbnail": "https://tr.rbxcdn.com/d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9/768/432/Image/Png",
+    "hints": {
+      "genre": "Roleplay / Fantasy",
+      "year": 2017,
+      "visits_range": "5B+",
+      "creator": "callmehbob",
+      "creator_initials": "C",
+      "description": "Fantasy high school roleplay where you earn diamonds to buy accessories and outfits"
+    },
+    "roblox_url": "https://www.roblox.com/games/735030788"
+  },
+  {
+    "id": "roblox-bedwars",
+    "name": "BedWars",
+    "thumbnail": "https://tr.rbxcdn.com/e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0/768/432/Image/Png",
+    "hints": {
+      "genre": "Strategy / PvP",
+      "year": 2021,
+      "visits_range": "3B+",
+      "creator": "Easy.gg",
+      "creator_initials": "EG",
+      "description": "Protect your bed while destroying enemies beds to eliminate them from the match"
+    },
+    "roblox_url": "https://www.roblox.com/games/6872265039"
+  },
+  {
+    "id": "natural-disaster-survival",
+    "name": "Natural Disaster Survival",
+    "thumbnail": "https://tr.rbxcdn.com/f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6/768/432/Image/Png",
+    "hints": {
+      "genre": "Survival",
+      "year": 2008,
+      "visits_range": "1.5B+",
+      "creator": "Stickmasterluke",
+      "creator_initials": "SL",
+      "description": "Survive various disasters like floods, tornadoes and earthquakes on a small island"
+    },
+    "roblox_url": "https://www.roblox.com/games/189707"
+  },
+  {
+    "id": "shindo-life",
+    "name": "Shindo Life",
+    "thumbnail": "https://tr.rbxcdn.com/a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7/768/432/Image/Png",
+    "hints": {
+      "genre": "RPG / Anime",
+      "year": 2020,
+      "visits_range": "3B+",
+      "creator": "RELL World",
+      "creator_initials": "RW",
+      "description": "Naruto-inspired RPG where players awaken bloodlines and spin elements to become stronger"
+    },
+    "roblox_url": "https://www.roblox.com/games/4808138474"
+  },
+  {
+    "id": "doors",
+    "name": "DOORS",
+    "thumbnail": "https://tr.rbxcdn.com/b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8/768/432/Image/Png",
+    "hints": {
+      "genre": "Horror",
+      "year": 2022,
+      "visits_range": "1.5B+",
+      "creator": "LSPLASH",
+      "creator_initials": "LS",
+      "description": "Survive through 100 doors in a haunted hotel while avoiding terrifying entities"
+    },
+    "roblox_url": "https://www.roblox.com/games/6516141723"
+  },
+  {
+    "id": "blox-fruits",
+    "name": "Blox Fruits",
+    "thumbnail": "https://tr.rbxcdn.com/c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9/768/432/Image/Png",
+    "hints": {
+      "genre": "RPG / Action",
+      "year": 2019,
+      "visits_range": "30B+",
+      "creator": "go play blox fruits",
+      "creator_initials": "GP",
+      "description": "One Piece-inspired game where players eat devil fruits to gain unique powers and fight bosses"
+    },
+    "roblox_url": "https://www.roblox.com/games/2753915549"
+  },
+  {
+    "id": "anime-fighters",
+    "name": "Anime Fighters Simulator",
+    "thumbnail": "https://tr.rbxcdn.com/d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0/768/432/Image/Png",
+    "hints": {
+      "genre": "Simulator / Anime",
+      "year": 2021,
+      "visits_range": "2B+",
+      "creator": "Sulley",
+      "creator_initials": "S",
+      "description": "Collect fighters from popular anime series and battle through different worlds"
+    },
+    "roblox_url": "https://www.roblox.com/games/6561619821"
+  },
+  {
+    "id": "vehicle-simulator",
+    "name": "Vehicle Simulator",
+    "thumbnail": "https://tr.rbxcdn.com/e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1/768/432/Image/Png",
+    "hints": {
+      "genre": "Simulator / Racing",
+      "year": 2016,
+      "visits_range": "2B+",
+      "creator": "FullHD",
+      "creator_initials": "FH",
+      "description": "Earn money to buy, upgrade and race cars, boats and planes across a large open map"
+    },
+    "roblox_url": "https://www.roblox.com/games/576219022"
+  },
+  {
+    "id": "phantom-forces",
+    "name": "Phantom Forces",
+    "thumbnail": "https://tr.rbxcdn.com/f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2/768/432/Image/Png",
+    "hints": {
+      "genre": "FPS / Military",
+      "year": 2015,
+      "visits_range": "1.5B+",
+      "creator": "StyLiS Studios",
+      "creator_initials": "SS",
+      "description": "Tactical military FPS with realistic guns, attachments and team-based combat"
+    },
+    "roblox_url": "https://www.roblox.com/games/292439477"
+  },
+  {
+    "id": "super-bomb-survival",
+    "name": "Super Bomb Survival",
+    "thumbnail": "https://tr.rbxcdn.com/a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3/768/432/Image/Png",
+    "hints": {
+      "genre": "Survival / Party",
+      "year": 2012,
+      "visits_range": "600M+",
+      "creator": "Polyhex",
+      "creator_initials": "P",
+      "description": "Dodge a rain of bombs of all types while using special items to survive longer than others"
+    },
+    "roblox_url": "https://www.roblox.com/games/62243344"
+  },
+  {
+    "id": "skyblock",
+    "name": "Islands (Skyblock)",
+    "thumbnail": "https://tr.rbxcdn.com/b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4/768/432/Image/Png",
+    "hints": {
+      "genre": "Sandbox / Tycoon",
+      "year": 2020,
+      "visits_range": "4B+",
+      "creator": "Easy.gg",
+      "creator_initials": "EG",
+      "description": "Start on a floating island and build your own empire by farming, crafting and trading resources"
+    },
+    "roblox_url": "https://www.roblox.com/games/4872321990"
+  },
+  {
+    "id": "word-bomb",
+    "name": "Word Bomb",
+    "thumbnail": "https://tr.rbxcdn.com/c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5/768/432/Image/Png",
+    "hints": {
+      "genre": "Word / Party",
+      "year": 2020,
+      "visits_range": "700M+",
+      "creator": "notpinq",
+      "creator_initials": "NP",
+      "description": "Think of words containing a given letter combination before the bomb explodes"
+    },
+    "roblox_url": "https://www.roblox.com/games/5765549140"
+  },
+  {
+    "id": "mining-simulator-2",
+    "name": "Mining Simulator 2",
+    "thumbnail": "https://tr.rbxcdn.com/d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6/768/432/Image/Png",
+    "hints": {
+      "genre": "Simulator",
+      "year": 2022,
+      "visits_range": "600M+",
+      "creator": "Ripull",
+      "creator_initials": "R",
+      "description": "Dig deep underground to mine rare gems and ores then sell them to upgrade your pickaxe"
+    },
+    "roblox_url": "https://www.roblox.com/games/8012148204"
+  },
+  {
+    "id": "bad-business",
+    "name": "Bad Business",
+    "thumbnail": "https://tr.rbxcdn.com/e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7/768/432/Image/Png",
+    "hints": {
+      "genre": "FPS / Shooter",
+      "year": 2019,
+      "visits_range": "500M+",
+      "creator": "Rudolph",
+      "creator_initials": "R",
+      "description": "Sleek and fast FPS game with a huge variety of weapons and character customization"
+    },
+    "roblox_url": "https://www.roblox.com/games/3328902635"
+  },
+  {
+    "id": "the-mimic",
+    "name": "The Mimic",
+    "thumbnail": "https://tr.rbxcdn.com/f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8/768/432/Image/Png",
+    "hints": {
+      "genre": "Horror",
+      "year": 2021,
+      "visits_range": "400M+",
+      "creator": "MUCDICH",
+      "creator_initials": "M",
+      "description": "Japanese folklore-inspired horror game where terrifying creatures hunt players chapter by chapter"
+    },
+    "roblox_url": "https://www.roblox.com/games/7554116501"
+  },
+  {
+    "id": "tycoon-world",
+    "name": "Restaurant Tycoon 2",
+    "thumbnail": "https://tr.rbxcdn.com/a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9/768/432/Image/Png",
+    "hints": {
+      "genre": "Tycoon",
+      "year": 2019,
+      "visits_range": "600M+",
+      "creator": "Ultraw",
+      "creator_initials": "U",
+      "description": "Build and manage your own restaurant from scratch hiring chefs and serving customers"
+    },
+    "roblox_url": "https://www.roblox.com/games/2408284495"
+  },
+  {
+    "id": "funky-friday",
+    "name": "Funky Friday",
+    "thumbnail": "https://tr.rbxcdn.com/b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0/768/432/Image/Png",
+    "hints": {
+      "genre": "Rhythm",
+      "year": 2021,
+      "visits_range": "3B+",
+      "creator": "Lyte Interactive",
+      "creator_initials": "LI",
+      "description": "Friday Night Funkin-inspired rhythm game with popular song mods and online battles"
+    },
+    "roblox_url": "https://www.roblox.com/games/6872265039"
+  },
+  {
+    "id": "bee-swarm-simulator",
+    "name": "Bee Swarm Simulator",
+    "thumbnail": "https://tr.rbxcdn.com/c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1/768/432/Image/Png",
+    "hints": {
+      "genre": "Simulator",
+      "year": 2018,
+      "visits_range": "6B+",
+      "creator": "Onett",
+      "creator_initials": "O",
+      "description": "Grow your swarm of bees to collect pollen and honey while discovering a giant world"
+    },
+    "roblox_url": "https://www.roblox.com/games/1537690962"
+  },
+  {
+    "id": "work-at-a-pizza-place",
+    "name": "Work at a Pizza Place",
+    "thumbnail": "https://tr.rbxcdn.com/d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2/768/432/Image/Png",
+    "hints": {
+      "genre": "Social / Tycoon",
+      "year": 2008,
+      "visits_range": "1B+",
+      "creator": "Dued1",
+      "creator_initials": "D",
+      "description": "Work various jobs at a pizza restaurant or be the manager directing employees"
+    },
+    "roblox_url": "https://www.roblox.com/games/192800"
+  },
+  {
+    "id": "build-a-boat",
+    "name": "Build a Boat for Treasure",
+    "thumbnail": "https://tr.rbxcdn.com/e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3/768/432/Image/Png",
+    "hints": {
+      "genre": "Building / Adventure",
+      "year": 2016,
+      "visits_range": "2B+",
+      "creator": "chisled",
+      "creator_initials": "C",
+      "description": "Build a vehicle out of blocks and sail through obstacle courses to collect treasure chests"
+    },
+    "roblox_url": "https://www.roblox.com/games/537413528"
+  },
+  {
+    "id": "flee-the-facility",
+    "name": "Flee the Facility",
+    "thumbnail": "https://tr.rbxcdn.com/f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4/768/432/Image/Png",
+    "hints": {
+      "genre": "Horror / Survival",
+      "year": 2017,
+      "visits_range": "2B+",
+      "creator": "A.W. Apps",
+      "creator_initials": "AW",
+      "description": "Hack computers to escape the facility while one player hunts the others as the beast"
+    },
+    "roblox_url": "https://www.roblox.com/games/1055652706"
+  },
+  {
+    "id": "dragon-adventures",
+    "name": "Dragon Adventures",
+    "thumbnail": "https://tr.rbxcdn.com/a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5/768/432/Image/Png",
+    "hints": {
+      "genre": "RPG / Fantasy",
+      "year": 2019,
+      "visits_range": "700M+",
+      "creator": "Sonar Studios",
+      "creator_initials": "SS",
+      "description": "Hatch rare dragons with unique elements and explore fantasy worlds on their backs"
+    },
+    "roblox_url": "https://www.roblox.com/games/3374463541"
+  },
+  {
+    "id": "sword-fighting-tournament",
+    "name": "Sword Fighting Tournament",
+    "thumbnail": "https://tr.rbxcdn.com/b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6/768/432/Image/Png",
+    "hints": {
+      "genre": "Fighting",
+      "year": 2006,
+      "visits_range": "300M+",
+      "creator": "Shedletsky",
+      "creator_initials": "S",
+      "description": "Classic Roblox swordfighting game and one of the oldest popular games on the platform"
+    },
+    "roblox_url": "https://www.roblox.com/games/2510197"
+  }
+]
