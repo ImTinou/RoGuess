@@ -1,91 +1,53 @@
-// Hook central du moteur de jeu
-// Gère : hints, guesses, timer, résultat, localStorage, appels API
+// Hook central du moteur de jeu — style Loldle
+// Chaque guess retourne une comparaison par attribut (pas de hints)
 
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { getTodayKey } from '../lib/daily'
 
-const MAX_HINTS   = 6
-const BASE_URL    = import.meta.env.DEV ? '' : ''
+const BASE_URL = ''
 
 function storageKey(mode) {
-  return `roguess_${mode}_${getTodayKey()}`
+  return `roguess_v2_${mode}_${getTodayKey()}`
 }
 
 function initialState(mode) {
   return {
     mode,
-    date:          getTodayKey(),
-    hintsRevealed: [1],        // hint 1 toujours visible
-    hintsData:     {},         // { 1: {label, icon, value}, 2: ... }
-    guesses:       [],         // ['Brookhaven', 'Bloxburg', ...]
-    won:           false,
-    finished:      false,
-    score:         0,
-    timeTaken:     null,
+    date:     getTodayKey(),
+    rows:     [],      // [{ name, thumbnail, comparison }]
+    won:      false,
+    finished: false,
+    score:    0,
+    timeTaken: null,
   }
 }
 
 export function useGameState(mode) {
-  const [state, setState]       = useState(null)   // null = loading
-  const [shaking, setShaking]   = useState(false)
-  const [loading, setLoading]   = useState(true)
-  const [submitting, setSubmit] = useState(false)
-  const startTimeRef            = useRef(null)
+  const [state,     setState]   = useState(null)
+  const [shaking,   setShaking] = useState(false)
+  const [loading,   setLoading] = useState(true)
+  const [submitting,setSubmit]  = useState(false)
+  const startTimeRef = useRef(null)
 
-  // ----- Chargement initial -----
   useEffect(() => {
     if (!mode) return
     loadState()
   }, [mode])
 
-  async function loadState() {
+  function loadState() {
     setLoading(true)
     const saved = loadFromStorage(mode)
-
     if (saved && saved.date === getTodayKey()) {
       setState(saved)
-      setLoading(false)
-      return
+    } else {
+      const fresh = initialState(mode)
+      setState(fresh)
+      saveToStorage(mode, fresh)
+      startTimeRef.current = Date.now()
     }
-
-    // Pas de sauvegarde → nouvelle partie
-    const fresh = initialState(mode)
-    // Récupère le hint 1
-    try {
-      const hint1 = await fetchHint(mode, 1)
-      fresh.hintsData[1] = hint1
-    } catch {
-      // Continue sans le hint (affichera un fallback)
-    }
-    setState(fresh)
-    saveToStorage(mode, fresh)
-    startTimeRef.current = Date.now()
     setLoading(false)
   }
 
-  // ----- Révéler le hint suivant -----
-  const revealNextHint = useCallback(async () => {
-    if (!state) return
-    const nextN = Math.max(...state.hintsRevealed) + 1
-    if (nextN > MAX_HINTS) return
-
-    try {
-      const hint = await fetchHint(mode, nextN)
-      setState(prev => {
-        const next = {
-          ...prev,
-          hintsRevealed: [...prev.hintsRevealed, nextN],
-          hintsData:     { ...prev.hintsData, [nextN]: hint },
-        }
-        saveToStorage(mode, next)
-        return next
-      })
-    } catch {
-      console.error('Impossible de charger l\'indice', nextN)
-    }
-  }, [state, mode])
-
-  // ----- Soumettre une guess -----
   const submitGuess = useCallback(async (guess) => {
     if (!state || state.finished || submitting) return { correct: false }
     setSubmit(true)
@@ -96,71 +58,41 @@ export function useGameState(mode) {
         headers: { 'Content-Type': 'application/json' },
         body:    JSON.stringify({ mode, guess }),
       })
+
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}))
+        if (res.status === 404) {
+          setShaking(true)
+          setTimeout(() => setShaking(false), 450)
+        }
+        return { correct: false, error: err.error }
+      }
+
       const data = await res.json()
+      const newRow = { name: data.guessedItem.name, thumbnail: data.guessedItem.thumbnail, comparison: data.comparison }
 
       if (data.correct) {
-        // Victoire
         const timeTaken = startTimeRef.current
           ? Math.floor((Date.now() - startTimeRef.current) / 1000)
           : null
-        const hintsUsed = state.hintsRevealed.length
-        const score     = calcScore(hintsUsed, timeTaken)
+        const score = calcScore(state.rows.length + 1, timeTaken)
 
         setState(prev => {
-          const next = {
-            ...prev,
-            guesses:   [...prev.guesses, guess],
-            won:       true,
-            finished:  true,
-            score,
-            timeTaken,
-          }
+          const next = { ...prev, rows: [...prev.rows, newRow], won: true, finished: true, score, timeTaken }
           saveToStorage(mode, next)
           return next
         })
         return { correct: true, score }
-
       } else {
-        // Mauvaise réponse
         setShaking(true)
         setTimeout(() => setShaking(false), 450)
 
-        const newGuesses   = [...state.guesses, guess]
-        const hintsShown   = state.hintsRevealed.length
-        const nextHintNum  = hintsShown + 1
-        const gameOver     = newGuesses.length >= MAX_HINTS
-
-        if (gameOver) {
-          setState(prev => {
-            const next = { ...prev, guesses: newGuesses, finished: true, won: false, score: 0 }
-            saveToStorage(mode, next)
-            return next
-          })
-          return { correct: false, gameOver: true }
-        }
-
-        // Révèle le prochain hint automatiquement
-        if (nextHintNum <= MAX_HINTS && !state.hintsRevealed.includes(nextHintNum)) {
-          const hint = await fetchHint(mode, nextHintNum)
-          setState(prev => {
-            const next = {
-              ...prev,
-              guesses:       newGuesses,
-              hintsRevealed: [...prev.hintsRevealed, nextHintNum],
-              hintsData:     { ...prev.hintsData, [nextHintNum]: hint },
-            }
-            saveToStorage(mode, next)
-            return next
-          })
-        } else {
-          setState(prev => {
-            const next = { ...prev, guesses: newGuesses }
-            saveToStorage(mode, next)
-            return next
-          })
-        }
-
-        return { correct: false, gameOver: false }
+        setState(prev => {
+          const next = { ...prev, rows: [...prev.rows, newRow] }
+          saveToStorage(mode, next)
+          return next
+        })
+        return { correct: false }
       }
     } finally {
       setSubmit(false)
@@ -172,25 +104,16 @@ export function useGameState(mode) {
     loading,
     shaking,
     submitting,
-    revealNextHint,
     submitGuess,
-    isFinished:     state?.finished ?? false,
-    hasWon:         state?.won ?? false,
-    hintsCount:     state?.hintsRevealed.length ?? 1,
-    attemptsLeft:   MAX_HINTS - (state?.guesses.length ?? 0),
+    isFinished:    state?.finished ?? false,
+    hasWon:        state?.won ?? false,
+    guessCount:    state?.rows?.length ?? 0,
+    alreadyGuessed: state?.rows?.map(r => r.name) ?? [],
   }
 }
 
-// ---- Helpers ----
-
-async function fetchHint(mode, n) {
-  const res = await fetch(`${BASE_URL}/api/game/hint?mode=${mode}&n=${n}`)
-  if (!res.ok) throw new Error(`Hint ${n} introuvable`)
-  return res.json()
-}
-
-function calcScore(hintsUsed, timeTaken) {
-  const base = (7 - Math.max(1, Math.min(6, hintsUsed))) * 100
+function calcScore(guessesUsed, timeTaken) {
+  const base = Math.max(100, 700 - guessesUsed * 100)
   const time = timeTaken ? Math.max(0, 60 - timeTaken) * 2 : 0
   return base + time
 }

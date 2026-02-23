@@ -2,451 +2,361 @@
   {
     "id": "dominus-aureus",
     "name": "Dominus Aureus",
+    "assetId": 73737627,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=73737627&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2012,
-    "rap_range": "500k - 2M",
-    "hints": {
-      "type": "Hat",
-      "year": 2012,
-      "rap_range": "500k - 2M",
-      "description": "One of the rarest crowns on Roblox, forged in pure gold with a dark aura",
-      "first_letter": "D"
-    },
+    "rap_num": 1000000,
+    "rap_label": "500k - 2M",
+    "rarity": "Legendary",
     "roblox_url": "https://www.roblox.com/catalog/73737627"
   },
   {
     "id": "valkyrie-helm",
     "name": "Valkyrie Helm",
+    "assetId": 1365767,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=1365767&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2007,
-    "rap_range": "50k - 200k",
-    "hints": {
-      "type": "Hat",
-      "year": 2007,
-      "rap_range": "50k - 200k",
-      "description": "A classic golden winged helmet inspired by Norse mythology warriors",
-      "first_letter": "V"
-    },
+    "rap_num": 100000,
+    "rap_label": "50k - 200k",
+    "rarity": "Rare",
     "roblox_url": "https://www.roblox.com/catalog/1365767"
   },
   {
     "id": "red-valk",
     "name": "Red Valkyrie",
+    "assetId": 2551459456,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=2551459456&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2018,
-    "rap_range": "20k - 80k",
-    "hints": {
-      "type": "Hat",
-      "year": 2018,
-      "rap_range": "20k - 80k",
-      "description": "A red recolor of the iconic Valkyrie Helm with crimson wings",
-      "first_letter": "R"
-    },
+    "rap_num": 40000,
+    "rap_label": "20k - 80k",
+    "rarity": "Rare",
     "roblox_url": "https://www.roblox.com/catalog/2551459456"
   },
   {
     "id": "domino-crown",
     "name": "Domino Crown",
+    "assetId": 21070012,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=21070012&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2007,
-    "rap_range": "1M - 10M",
-    "hints": {
-      "type": "Hat",
-      "year": 2007,
-      "rap_range": "1M - 10M",
-      "description": "An extremely rare spotted crown given to just a handful of Roblox users ever",
-      "first_letter": "D"
-    },
+    "rap_num": 5000000,
+    "rap_label": "1M - 10M",
+    "rarity": "Legendary",
     "roblox_url": "https://www.roblox.com/catalog/21070012"
   },
   {
     "id": "clockwork-headphones",
     "name": "Clockwork's Headphones",
+    "assetId": 11884330,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=11884330&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2012,
-    "rap_range": "15k - 60k",
-    "hints": {
-      "type": "Hat",
-      "year": 2012,
-      "rap_range": "15k - 60k",
-      "description": "Iconic blue and orange headphones belonging to a famous Roblox admin",
-      "first_letter": "C"
-    },
+    "rap_num": 30000,
+    "rap_label": "15k - 60k",
+    "rarity": "Uncommon",
     "roblox_url": "https://www.roblox.com/catalog/11884330"
   },
   {
     "id": "perfectly-generic-hat",
     "name": "Perfectly Generic Item",
+    "assetId": 3160106418,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=3160106418&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2018,
-    "rap_range": "30k - 100k",
-    "hints": {
-      "type": "Hat",
-      "year": 2018,
-      "rap_range": "30k - 100k",
-      "description": "A mysterious plain white sphere with absolutely no distinctive features",
-      "first_letter": "P"
-    },
+    "rap_num": 50000,
+    "rap_label": "30k - 100k",
+    "rarity": "Uncommon",
     "roblox_url": "https://www.roblox.com/catalog/3160106418"
   },
   {
     "id": "skul-staff",
     "name": "Skul Staff",
+    "assetId": 123981099,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=123981099&width=420&height=420&format=png",
     "type": "Gear",
     "year": 2012,
-    "rap_range": "8k - 30k",
-    "hints": {
-      "type": "Gear",
-      "year": 2012,
-      "rap_range": "8k - 30k",
-      "description": "A dark magical staff topped with a floating skull used in fantasy games",
-      "first_letter": "S"
-    },
+    "rap_num": 15000,
+    "rap_label": "8k - 30k",
+    "rarity": "Common",
     "roblox_url": "https://www.roblox.com/catalog/123981099"
   },
   {
     "id": "sparkling-valkyrie",
     "name": "Sparkling Valkyrie Helm",
+    "assetId": 5243292921,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=5243292921&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2020,
-    "rap_range": "10k - 40k",
-    "hints": {
-      "type": "Hat",
-      "year": 2020,
-      "rap_range": "10k - 40k",
-      "description": "A shiny teal sparkling recolor of the beloved Valkyrie Helm design",
-      "first_letter": "S"
-    },
+    "rap_num": 20000,
+    "rap_label": "10k - 40k",
+    "rarity": "Uncommon",
     "roblox_url": "https://www.roblox.com/catalog/5243292921"
   },
   {
     "id": "illumina",
     "name": "Illumina",
+    "assetId": 221806466,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=221806466&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2014,
-    "rap_range": "5k - 20k",
-    "hints": {
-      "type": "Hat",
-      "year": 2014,
-      "rap_range": "5k - 20k",
-      "description": "A glowing crystal crown with light blue particles radiating from its gems",
-      "first_letter": "I"
-    },
+    "rap_num": 10000,
+    "rap_label": "5k - 20k",
+    "rarity": "Common",
     "roblox_url": "https://www.roblox.com/catalog/221806466"
   },
   {
     "id": "dominus-empyreus",
     "name": "Dominus Empyreus",
+    "assetId": 73739218,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=73739218&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2012,
-    "rap_range": "300k - 1M",
-    "hints": {
-      "type": "Hat",
-      "year": 2012,
-      "rap_range": "300k - 1M",
-      "description": "A heavenly blue Dominus crown adorned with white wings and divine energy",
-      "first_letter": "D"
-    },
+    "rap_num": 600000,
+    "rap_label": "300k - 1M",
+    "rarity": "Epic",
     "roblox_url": "https://www.roblox.com/catalog/73739218"
   },
   {
     "id": "dominus-infernus",
     "name": "Dominus Infernus",
+    "assetId": 138932586,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=138932586&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2013,
-    "rap_range": "600k - 2M",
-    "hints": {
-      "type": "Hat",
-      "year": 2013,
-      "rap_range": "600k - 2M",
-      "description": "A fiery demonic Dominus crown with flames and glowing red textures",
-      "first_letter": "D"
-    },
+    "rap_num": 1200000,
+    "rap_label": "600k - 2M",
+    "rarity": "Legendary",
     "roblox_url": "https://www.roblox.com/catalog/138932586"
   },
   {
     "id": "banana",
     "name": "Banana",
+    "assetId": 531294387,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=531294387&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2017,
-    "rap_range": "5k - 20k",
-    "hints": {
-      "type": "Hat",
-      "year": 2017,
-      "rap_range": "5k - 20k",
-      "description": "Exactly what it sounds like — a bright yellow tropical fruit worn on your head",
-      "first_letter": "B"
-    },
+    "rap_num": 10000,
+    "rap_label": "5k - 20k",
+    "rarity": "Common",
     "roblox_url": "https://www.roblox.com/catalog/531294387"
   },
   {
     "id": "golden-super-fly",
     "name": "Golden Super Fly Boombox",
+    "assetId": 673885267,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=673885267&width=420&height=420&format=png",
     "type": "Gear",
     "year": 2017,
-    "rap_range": "10k - 50k",
-    "hints": {
-      "type": "Gear",
-      "year": 2017,
-      "rap_range": "10k - 50k",
-      "description": "Gold-plated version of the iconic boombox gear that plays music",
-      "first_letter": "G"
-    },
+    "rap_num": 25000,
+    "rap_label": "10k - 50k",
+    "rarity": "Uncommon",
     "roblox_url": "https://www.roblox.com/catalog/673885267"
   },
   {
     "id": "link-bundle",
     "name": "Link & Learn Bundle",
+    "assetId": 6573388820,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=6573388820&width=420&height=420&format=png",
     "type": "Bundle",
     "year": 2022,
-    "rap_range": "2k - 8k",
-    "hints": {
-      "type": "Bundle",
-      "year": 2022,
-      "rap_range": "2k - 8k",
-      "description": "An educational collaboration bundle released as part of a special partnership",
-      "first_letter": "L"
-    },
+    "rap_num": 4000,
+    "rap_label": "2k - 8k",
+    "rarity": "Common",
     "roblox_url": "https://www.roblox.com/bundles/782"
   },
   {
     "id": "knight-helm",
     "name": "Classic Roblox Knight Helm",
+    "assetId": 17504644,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=17504644&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2012,
-    "rap_range": "1k - 5k",
-    "hints": {
-      "type": "Hat",
-      "year": 2012,
-      "rap_range": "1k - 5k",
-      "description": "A timeless silver medieval helmet representing the OG Roblox warrior look",
-      "first_letter": "C"
-    },
+    "rap_num": 2500,
+    "rap_label": "1k - 5k",
+    "rarity": "Common",
     "roblox_url": "https://www.roblox.com/catalog/17504644"
   },
   {
     "id": "red-top-hat",
     "name": "Red Top Hat",
+    "assetId": 19027209,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=19027209&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2009,
-    "rap_range": "1k - 5k",
-    "hints": {
-      "type": "Hat",
-      "year": 2009,
-      "rap_range": "1k - 5k",
-      "description": "A tall vibrant red formal top hat — one of the earliest catalog items",
-      "first_letter": "R"
-    },
+    "rap_num": 2500,
+    "rap_label": "1k - 5k",
+    "rarity": "Common",
     "roblox_url": "https://www.roblox.com/catalog/19027209"
   },
   {
     "id": "shaggy",
     "name": "Shaggy",
+    "assetId": 4005438862,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=4005438862&width=420&height=420&format=png",
     "type": "Face",
     "year": 2019,
-    "rap_range": "500 - 2k",
-    "hints": {
-      "type": "Face",
-      "year": 2019,
-      "rap_range": "500 - 2k",
-      "description": "A simple but iconic face featuring the laid-back expression of a famous cartoon character",
-      "first_letter": "S"
-    },
+    "rap_num": 1000,
+    "rap_label": "500 - 2k",
+    "rarity": "Common",
     "roblox_url": "https://www.roblox.com/catalog/4005438862"
   },
   {
     "id": "startpack-face",
     "name": "Smile",
+    "assetId": 10730260,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=10730260&width=420&height=420&format=png",
     "type": "Face",
     "year": 2008,
-    "rap_range": "100 - 500",
-    "hints": {
-      "type": "Face",
-      "year": 2008,
-      "rap_range": "100 - 500",
-      "description": "The most classic and recognizable face on the entire Roblox platform",
-      "first_letter": "S"
-    },
+    "rap_num": 200,
+    "rap_label": "100 - 500",
+    "rarity": "Common",
     "roblox_url": "https://www.roblox.com/catalog/10730260"
   },
   {
     "id": "headphones-black",
     "name": "Black Iron Headphones",
+    "assetId": 437845388,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=437845388&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2016,
-    "rap_range": "3k - 10k",
-    "hints": {
-      "type": "Hat",
-      "year": 2016,
-      "rap_range": "3k - 10k",
-      "description": "Sleek black metallic headphones perfect for the dark-themed avatar aesthetic",
-      "first_letter": "B"
-    },
+    "rap_num": 5000,
+    "rap_label": "3k - 10k",
+    "rarity": "Common",
     "roblox_url": "https://www.roblox.com/catalog/437845388"
   },
   {
     "id": "valk-of-speed",
     "name": "Valkyrie of Speed",
+    "assetId": 7175492735,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=7175492735&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2021,
-    "rap_range": "8k - 30k",
-    "hints": {
-      "type": "Hat",
-      "year": 2021,
-      "rap_range": "8k - 30k",
-      "description": "A lightning blue Valkyrie recolor symbolizing incredible speed and agility",
-      "first_letter": "V"
-    },
+    "rap_num": 15000,
+    "rap_label": "8k - 30k",
+    "rarity": "Uncommon",
     "roblox_url": "https://www.roblox.com/catalog/7175492735"
   },
   {
     "id": "mage-hat",
     "name": "Wizard of the Balance",
+    "assetId": 7100478581,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=7100478581&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2021,
-    "rap_range": "5k - 15k",
-    "hints": {
-      "type": "Hat",
-      "year": 2021,
-      "rap_range": "5k - 15k",
-      "description": "A mystical dual-colored wizard hat representing light and dark magic",
-      "first_letter": "W"
-    },
+    "rap_num": 9000,
+    "rap_label": "5k - 15k",
+    "rarity": "Uncommon",
     "roblox_url": "https://www.roblox.com/catalog/7100478581"
   },
   {
     "id": "blue-sparkle-time",
     "name": "Blue Sparkle Time Fedora",
+    "assetId": 527842614,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=527842614&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2016,
-    "rap_range": "60k - 250k",
-    "hints": {
-      "type": "Hat",
-      "year": 2016,
-      "rap_range": "60k - 250k",
-      "description": "A mesmerizing blue fedora that shimmers with twinkling sparkle particles",
-      "first_letter": "B"
-    },
+    "rap_num": 130000,
+    "rap_label": "60k - 250k",
+    "rarity": "Epic",
     "roblox_url": "https://www.roblox.com/catalog/527842614"
   },
   {
     "id": "green-sparkle-fedora",
     "name": "Green Sparkle Time Fedora",
+    "assetId": 527842690,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=527842690&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2016,
-    "rap_range": "40k - 150k",
-    "hints": {
-      "type": "Hat",
-      "year": 2016,
-      "rap_range": "40k - 150k",
-      "description": "An emerald green fedora sparkling with a trail of green magical particles",
-      "first_letter": "G"
-    },
+    "rap_num": 80000,
+    "rap_label": "40k - 150k",
+    "rarity": "Rare",
     "roblox_url": "https://www.roblox.com/catalog/527842690"
   },
   {
     "id": "korblox",
     "name": "Korblox Deathspeaker",
+    "assetId": 36884594,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=36884594&width=420&height=420&format=png",
     "type": "Bundle",
     "year": 2016,
-    "rap_range": "17k - 30k",
-    "hints": {
-      "type": "Bundle",
-      "year": 2016,
-      "rap_range": "17k - 30k",
-      "description": "An intimidating undead warrior bundle with a glowing purple crystal chest piece",
-      "first_letter": "K"
-    },
+    "rap_num": 22000,
+    "rap_label": "17k - 30k",
+    "rarity": "Rare",
     "roblox_url": "https://www.roblox.com/bundles/74"
   },
   {
     "id": "icebreaker",
     "name": "Icebreaker",
+    "assetId": 286235574,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=286235574&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2015,
-    "rap_range": "3k - 10k",
-    "hints": {
-      "type": "Hat",
-      "year": 2015,
-      "rap_range": "3k - 10k",
-      "description": "A cool blue hat with ice spike decorations belonging to an arctic explorer theme",
-      "first_letter": "I"
-    },
+    "rap_num": 5000,
+    "rap_label": "3k - 10k",
+    "rarity": "Common",
     "roblox_url": "https://www.roblox.com/catalog/286235574"
   },
   {
     "id": "sinister",
     "name": "Sinister",
+    "assetId": 164610609,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=164610609&width=420&height=420&format=png",
     "type": "Face",
     "year": 2013,
-    "rap_range": "1k - 4k",
-    "hints": {
-      "type": "Face",
-      "year": 2013,
-      "rap_range": "1k - 4k",
-      "description": "A creepy smirking face with a mischievous glint suggesting something is very wrong",
-      "first_letter": "S"
-    },
+    "rap_num": 2000,
+    "rap_label": "1k - 4k",
+    "rarity": "Common",
     "roblox_url": "https://www.roblox.com/catalog/164610609"
   },
   {
     "id": "headrow-hard",
     "name": "Headrow Hard",
+    "assetId": 3896823440,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=3896823440&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2019,
-    "rap_range": "500 - 2k",
-    "hints": {
-      "type": "Hat",
-      "year": 2019,
-      "rap_range": "500 - 2k",
-      "description": "A sturdy industrial hard hat styled for a construction worker aesthetic",
-      "first_letter": "H"
-    },
+    "rap_num": 1000,
+    "rap_label": "500 - 2k",
+    "rarity": "Common",
     "roblox_url": "https://www.roblox.com/catalog/3896823440"
   },
   {
     "id": "dominus-messor",
     "name": "Dominus Messor",
+    "assetId": 5654046726,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=5654046726&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2020,
-    "rap_range": "100k - 400k",
-    "hints": {
-      "type": "Hat",
-      "year": 2020,
-      "rap_range": "100k - 400k",
-      "description": "A green and brown harvest-themed Dominus crown associated with the Grim Reaper",
-      "first_letter": "D"
-    },
+    "rap_num": 200000,
+    "rap_label": "100k - 400k",
+    "rarity": "Epic",
     "roblox_url": "https://www.roblox.com/catalog/5654046726"
   },
   {
     "id": "rainbow-valkyrie",
     "name": "Rainbow Valkyrie",
+    "assetId": 10547997,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=10547997&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2022,
-    "rap_range": "15k - 50k",
-    "hints": {
-      "type": "Hat",
-      "year": 2022,
-      "rap_range": "15k - 50k",
-      "description": "A prismatic multicolor Valkyrie Helm that cycles through all colors of the spectrum",
-      "first_letter": "R"
-    },
+    "rap_num": 25000,
+    "rap_label": "15k - 50k",
+    "rarity": "Uncommon",
     "roblox_url": "https://www.roblox.com/catalog/10547997"
   },
   {
     "id": "purple-fox",
     "name": "Purple Fox Ears",
+    "assetId": 4001311030,
+    "image": "https://www.roblox.com/asset-thumbnail/image?assetId=4001311030&width=420&height=420&format=png",
     "type": "Hat",
     "year": 2019,
-    "rap_range": "800 - 3k",
-    "hints": {
-      "type": "Hat",
-      "year": 2019,
-      "rap_range": "800 - 3k",
-      "description": "Cute fluffy purple animal ears popular in kawaii and fantasy avatar styles",
-      "first_letter": "P"
-    },
+    "rap_num": 1500,
+    "rap_label": "800 - 3k",
+    "rarity": "Common",
     "roblox_url": "https://www.roblox.com/catalog/4001311030"
   }
 ]

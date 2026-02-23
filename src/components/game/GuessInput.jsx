@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 
-export default function GuessInput({ dataset, guesses, onGuess, disabled, shaking }) {
+export default function GuessInput({ dataset, alreadyGuessed = [], onGuess, disabled, shaking }) {
   const [value, setValue]       = useState('')
   const [filtered, setFiltered] = useState([])
   const [open, setOpen]         = useState(false)
@@ -14,12 +14,12 @@ export default function GuessInput({ dataset, guesses, onGuess, disabled, shakin
     const q = value.toLowerCase()
     const results = dataset
       .filter(item => item.name.toLowerCase().includes(q))
-      .filter(item => !guesses.includes(item.name))
+      .filter(item => !alreadyGuessed.includes(item.name))
       .slice(0, 8)
     setFiltered(results)
     setOpen(results.length > 0)
     setHigh(-1)
-  }, [value, dataset, guesses])
+  }, [value, dataset, alreadyGuessed])
 
   // Ferme sur clic extérieur
   useEffect(() => {
@@ -41,7 +41,7 @@ export default function GuessInput({ dataset, guesses, onGuess, disabled, shakin
   function submit(name = value) {
     const trimmed = name.trim()
     if (!trimmed) return
-    if (guesses.includes(trimmed)) return
+    if (alreadyGuessed.includes(trimmed)) return
     onGuess(trimmed)
     setValue('')
     setOpen(false)
@@ -89,8 +89,8 @@ export default function GuessInput({ dataset, guesses, onGuess, disabled, shakin
                 onMouseDown={() => { select(item.name); setTimeout(() => submit(item.name), 10) }}
                 onMouseEnter={() => setHigh(i)}
               >
-                {item.thumbnail && (
-                  <img src={item.thumbnail ?? item.image ?? item.avatar} alt="" />
+                {(item.thumbnail ?? item.image) && (
+                  <img src={item.thumbnail ?? item.image} alt="" onError={e => { e.target.style.display = 'none' }} />
                 )}
                 <span>{item.name}</span>
               </div>
