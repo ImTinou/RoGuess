@@ -1,10 +1,12 @@
 // GET /api/game/hint?mode=game&n=2
 // Retourne l'indice N du puzzle du jour (jamais la réponse)
 
+import { createRequire } from 'module'
 import { getDailyIndex } from '../_lib/daily.js'
-import gamesData    from '../../src/data/games.json' assert { type: 'json' }
-import limitedsData from '../../src/data/limiteds.json' assert { type: 'json' }
-import devsData     from '../../src/data/devs.json' assert { type: 'json' }
+const require = createRequire(import.meta.url)
+const gamesData    = require('../../src/data/games.json')
+const limitedsData = require('../../src/data/limiteds.json')
+const devsData     = require('../../src/data/devs.json')
 
 const DATA = { game: gamesData, limited: limitedsData, dev: devsData }
 

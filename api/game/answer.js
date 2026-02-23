@@ -1,10 +1,12 @@
 // GET /api/game/answer?mode=game
 // Retourne la réponse complète — UNIQUEMENT appelé après game over côté client
 
+import { createRequire } from 'module'
 import { getDailyIndex } from '../_lib/daily.js'
-import gamesData    from '../../src/data/games.json' assert { type: 'json' }
-import limitedsData from '../../src/data/limiteds.json' assert { type: 'json' }
-import devsData     from '../../src/data/devs.json' assert { type: 'json' }
+const require = createRequire(import.meta.url)
+const gamesData    = require('../../src/data/games.json')
+const limitedsData = require('../../src/data/limiteds.json')
+const devsData     = require('../../src/data/devs.json')
 
 const DATA = { game: gamesData, limited: limitedsData, dev: devsData }
 
